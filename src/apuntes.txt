@@ -1,0 +1,2 @@
+- Corregir sistema de integracion de los nombres (-)
+- Corregir sistema de integracion de los policlinicos (-)
