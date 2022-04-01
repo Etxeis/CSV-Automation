@@ -1,0 +1,139 @@
+Local;Requiere llamado automatizado ;Local como debería decir la grabadora 
+Angiografia Retinal TM HDS;NO ;Angiografia Retinal TM 
+AUTOFLUORESCENCIA TM HDS;NO ;AUTOFLUORESCENCIA TM 
+Box  cardiología Ges HDS;NO ;Box  cardiología Ges 
+box  cardiología HDS;NO ;box  cardiología 
+Box  cardiología Marcapaso HDS;NO ;Box  cardiología Marcapaso 
+box  cardiovascular e Hipertensión HDS;NO ;box  cardiovascular e Hipertensión 
+box  pié diabético HDS;NO ;box  pié diabético 
+box alivio del dolor HDS;NO ;box alivio del dolor 
+Box Cirugía Vascular HDS;NO ;Box Cirugía Vascular 
+box coordinación oncológica HDS;NO ;box coordinación oncológica 
+Box de Hematología HDS;NO ;Box de Hematología 
+Box de Reumatología HDS;NO ;Box de Reumatología 
+Box Evaluación Psiquiatría HDS;NO ;Box Evaluación Psiquiatría 
+box gastroenterología HDS;NO ;box gastroenterología 
+box Hemato Intensivo HDS;NO ;box Hemato Intensivo 
+box secretaría endocrino HDS;NO ;box secretaría endocrino 
+box trasplante hepático HDS;NO ;box trasplante hepático 
+Box Trasplante Médula HDS;NO ;Box Trasplante Médula 
+box trasplante renal HDS;NO ;box trasplante renal 
+box unidad de endoscopía HDS;NO ;box unidad de endoscopía 
+Campos Visuales 1 TM HDS;NO ;Campos Visuales 1 TM 
+Campos Visuales 2 TM HDS;NO ;Campos Visuales 2 TM 
+CURVA DE TENSIÓN TM HDS;NO ;CURVA DE TENSIÓN TM 
+Diálisis HDS;NO ;Diálisis 
+ECO A / CÁLCULO LIO TM HDS;NO ;ECO A / CÁLCULO LIO TM 
+Ecografia HDS;NO ;Ecografia 
+Exámenes Espontáneos TM HDS;NO ;Exámenes Espontáneos TM 
+FOTO DE PAPILA / RETINOGRAFÍA TM HDS;NO ;FOTO DE PAPILA / RETINOGRAFÍA TM 
+Laboratorio Otoneurología HDS;NO ;Laboratorio Otoneurología 
+MICROSCOPIA ESPECULAR TM HDS ;NO ;MICROSCOPIA ESPECULAR TM  
+OCT TM HDS;NO ;OCT TM 
+Oficina Asesoría Jurídica;NO ;Oficina Asesoría Jurídica
+OPD/PENTACAM TM HDS;NO ;OPD/PENTACAM TM 
+Pabellón Central HDS;NO ;Pabellón Central 
+PABELLON DERMATOLOGIA HDS;NO ;PABELLON DERMATOLOGIA 
+PAQUIMETRÍA TM HDS;NO ;PAQUIMETRÍA TM 
+Piso Pélvico HDS;NO ;Piso Pélvico 
+Policlínico Asistente Social HDS;NO ;Policlínico Asistente Social 
+Policlínico COVID 19;NO ;Policlínico COVID 19
+Policlínico de Anestesiología HDS;NO ;Policlínico de Anestesiología 
+Policlínico de Asistencia Nutricional HDS;NO ;Policlínico de Asistencia Nutricional 
+Policlínico de Hematología UHI HDS;NO ;Hematología UHI 
+Policlínico de Infectología HDS;NO ;Policlínico de Infectología 
+Policlínico Neurología Terapia Ocupacional HDS;NO ;Policlínico Neurología Terapia Ocupacional 
+Policlínico Neurología-Fonoaudiólogo HDS;NO ;Policlínico Neurología-Fonoaudiólogo 
+Policlínico Neurología-Psicólogo HDS;NO ;Policlínico Neurología-Psicólogo 
+Políclinico Otorrino-Fonoaudiólogo HDS;NO ;Políclinico Otorrino-Fonoaudiólogo 
+Policlínico Pie diabetico HDS;NO ;Policlínico Pie diabetico 
+Policlínico Psiquiatría - Asistente Social - HDS;NO ;Policlínico Psiquiatría - Asistente Social - 
+Policlínico Psiquiatría HDS;NO ;Policlínico Psiquiatría 
+Policlínico Psiquiatría-Psicólogos HDS;NO ;Policlínico Psiquiatría-Psicólogos 
+Policlínico Psiquiatría-Terapeuta Ocupacional HDS;NO ;Policlínico Psiquiatría-Terapeuta Ocupacional 
+Procedimiento Dermatología HDS;NO ;Procedimiento Dermatología 
+Procedimientos Alivio del Dolor HDS;NO ;Procedimientos Alivio del Dolor 
+PROCEDIMIENTOS CARDIOLOGÍA HDS;NO ;PROCEDIMIENTOS CARDIOLOGÍA 
+Procedimientos de Sangría UMT HDS;NO ;Procedimientos de Sangría UMT 
+Procedimientos Diálisis HDS;NO ;Procedimientos Diálisis 
+Procedimientos ETS;NO ;Procedimientos ETS
+Procedimientos Hematólogía HDS;NO ;Procedimientos Hematólogía 
+Procedimientos Neurología HDS;NO ;Procedimientos Neurología 
+PROCEDIMIENTOS OFTALMOLOGIA HDS;NO ;PROCEDIMIENTOS OFTALMOLOGIA 
+Procedimientos Otorrino HDS;NO ;Procedimientos Otorrino 
+Procedimientos Transfusionales UMT HDS;NO ;Procedimientos Transfusionales UMT 
+Procedimientos UHI;NO ;Procedimientos UHI
+Procedimientos Urología HDS;NO ;Procedimientos Urología 
+Procedimientos Vascular HDS;NO ;Procedimientos Vascular 
+Radiografias Simples HDS;NO ;Radiografias Simples 
+Rehabilitación Integral Trauma Ocular Grave;NO ;Rehabilitación Integral Trauma Ocular Grave
+Tele Dermatología HDS;NO ;Tele Dermatología 
+Tele Neuro/Memoria;NO ;Tele Neuro/Memoria
+Tele Urología HDS;NO ;Tele Urología 
+TELECARDIOLOGIA HDS;NO ;TELECARDIOLOGIA 
+TELEDIABETES HDS;NO ;TELEDIABETES 
+TeleEndocrinología HDS;NO ;TeleEndocrinología 
+TelekinesiólogiaMFR;NO ;TelekinesiólogiaMFR
+Telemedicina Cir. Vascular HDS;NO ;Telemedicina Cir. Vascular 
+Telemedicina Reumatología HDS;NO ;Telemedicina Reumatología 
+TELENEFROLOGIA HDS;NO ;TELENEFROLOGIA 
+Tomografia Axial Computarizada HDS;NO ;Tomografia Axial Computarizada 
+Unidad de medicina transfusional HDS;NO ;Unidad de medicina transfusional 
+Cirugía Maxilo Facial HDS;SI;Maxilo Facial 
+Endodoncia HDS;SI;Endodoncia 
+Implantología HDS;SI;Implantología 
+Operatoria Dental HDS;SI;Operatoria Dental 
+Periodoncia HDS;SI;Periodoncia 
+Policlínico Cadera - Pelvis Traumatología ;SI;Policlínico de Traumatología 
+Policlínico Catarata GES HDS;SI;Policlínico de Oftalmología 
+Policlínico Cirugía Mayor Ambulatoria HDS;SI;Policlínico de Cirugía 
+Policlínico de Cardiología HDS;SI;Policlínico de Cardiología 
+Policlínico de Cirugía - Plástica HDS;SI;Policlínico de Cirugía
+Policlínico de Cirugía- Biliopancreático HDS;SI;Policlínico de Cirugía
+Policlínico de Cirugía HDS;SI;Policlínico de Cirugía 
+Policlínico de Cirugía-Cabeza y Cuello HDS;SI;Policlínico de Cirugía 
+Policlínico de Cirugía-Gástrico HDS;SI;Policlínico de Cirugía 
+Policlínico de Cirugía-Proctología HDS;SI;Policlínico de Cirugía 
+Policlínico de Cirugía-Vascular Periférica HDS;SI;Policlínico de Cirugía 
+Policlínico de Dermatologia HDS;SI;Policlínico de Dermatologia 
+Policlínico de Diabetes HDS;SI;Policlínico de Diabetes 
+Policlínico de Endocrinología HDS;SI;Policlínico de Endocrinología 
+Policlínico de ETS HDS;SI;Policlínico de ETS 
+Policlínico de Gastroenterología HDS;SI;Policlínico de Gastroenterología 
+Policlínico de Hematología HDS;SI;Policlínico de Hematología 
+Policlínico de Medicina HDS;SI;Policlínico de Medicina 
+Policlínico de Nefrología HDS;SI;Policlínico de Nefrología 
+Policlínico de Nutrición HDS;SI;Policlínico de Nutrición 
+Policlínico de Oftalmología Depto.  UVEA HDS;SI;Policlínico de Oftalmología
+Policlínico de Oftalmología Depto. Cornea HDS;SI;Policlínico de Oftalmología
+Policlínico de Oftalmología Depto. Estrabismo HDS;SI;Policlínico de Oftalmología
+Policlínico de Oftalmología Depto. Glaucoma HDS;SI;Policlínico de Oftalmología
+Policlínico de Oftalmología Depto. Orbita HDS;SI;Policlínico de Oftalmología
+Policlínico de Oftalmología Depto. Retina HDS;SI;Policlínico de Oftalmología
+Policlínico de Oftalmologia HDS;SI;Policlínico de Oftalmología
+Policlínico de Reumatología HDS;SI;Policlínico de Reumatología 
+Policlínico de Urología HDS;SI;Policlínico de Urología 
+Policlínico Hombro - Codo Traumatología;SI;Policlínico de Traumatología
+Policlínico Mano - Muñeca Traumatología ;SI;Policlínico de Traumatología 
+Policlínico medicina fisica HDS;SI;Medicina Física 
+Policlínico Medicina Fisica-Kinesiólogo HDS;SI;Medicina Fisica-Kinesiólogo 
+Policlínico Medicina Fisica-Terapeuta Ocupacional HDS;SI;Medicina Fisica-Terapia Ocupacional 
+Policlínico Neurología HDS;SI;Policlínico de Neurología 
+Policlínico Otorrino HDS;SI;Policlínico de Otorrino 
+Policlínico Pertinencia no GES HDS;SI;Policlínico de Oftalmología
+Policlínico Post Operados Oftalmología HDS;SI;Policlínico de Oftalmología
+Policlínico Retinopatia GES HDS;SI;Policlínico de Oftalmología
+Policlínico Rodilla Traumatología;SI;Policlínico de Traumatología
+Policlínico Tobillo - Pie   Traumatología;SI;Policlínico de Traumatología
+Procedimiento C. Máxilo facial HDS;SI;Procedimiento Máxilo facial 
+Procedimiento Endodoncia HDS;SI;Procedimiento Endodoncia 
+Procedimiento Implantología HDS;SI;Procedimiento Implantología 
+Procedimiento Op Dental HDS;SI;Procedimiento Op Dental 
+Procedimiento Periodoncia HDS;SI;Procedimiento Periodoncia 
+Procedimiento Prótesis HDS;SI;Procedimiento Prótesis 
+Procedimiento Trast. Temporo - Mandibular HDS;SI;Procedimiento Trast. Temporo - Mandibular 
+Protesis Dental HDS;SI;Protesis Dental 
+Radiología Oral HDS;SI;Radiología Oral 
+Trast. Temporo - Mandibular HDS;SI;Trast. Temporo - Mandibular 
+Unidad de Memoria 2 HDS;SI;Unidad de Memoria 
+Urología HDS / HLTB;SI;Urología  

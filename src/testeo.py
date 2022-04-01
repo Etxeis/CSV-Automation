@@ -1,12 +1,23 @@
 import csv
 
 file = open("agenda.csv", encoding='iso-8859-1') 
+doctorFile = open('PROFESIONALES.csv', encoding='iso-8859-1')
+
+doctorList = []
+
+for line in doctorFile:
+    columns = line.split(';')
+    doctorList.append(columns[1])
+
+for doctor in doctorList:
+    doctor.split(' ')
+
 
 header = []
 rows = []
 
 for line in file:
-    columns = line.split(";")
+    columns = line.split(';')
     header.append(columns)
     break
 

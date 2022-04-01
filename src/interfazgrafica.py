@@ -40,6 +40,27 @@ def set_text(text):
 e = tk.Entry(root,width=30)
 e.place(relx=.5, rely=.5, anchor="center", y=-55)
 
+def DoctorListCreator():
+    doctorFile = open('PROFESIONALES.csv', encoding='iso-8859-1')
+
+    doctorList = []
+
+    for line in doctorFile:
+        columns = line.split(';')
+        doctorList.append(columns[1])
+
+    doctorListCorrect = []
+
+    for doctor in doctorList:
+        name = doctor.split(' ')
+        transition = []
+        for part in name:
+            transition.append(part)
+
+        doctorListCorrect.append(transition)
+
+    return doctorListCorrect
+
 def automatizacion():
     file = open(archName, encoding='iso-8859-1') 
 
@@ -234,7 +255,7 @@ def automatizacion():
                 temporaryList[8] = person[46][:5]
 
 
-            elif (atribute == person[32]): # Para el nombre del doctor
+            elif (atribute == person[32]): # Para el nombre del doctor (TOCA MODIFICAR!)
                 name = person[32]
                 nameList = name.split(" ")
                 if (len(nameList) == 2):
@@ -269,8 +290,7 @@ def automatizacion():
             errorFile.write(str(error))
             errorFile.write("\n")
         errorFile.close()
-        showinfo(message="Archivo generado!\nSE HAN DETECTADO "+str(errorCounter)+" ERRORES!")
-
+        showinfo(message="Archivo generado!\nAL PARECER SE HAN DETECTADO "+str(errorCounter)+" ERRORES!")
     else:
         showinfo(message="Archivo generado!")
 
@@ -291,8 +311,5 @@ open_button.place(relx=.5, rely=.5, anchor="center", y=-25)
 
 ttk.Button(root, text="GENERAR", command=Intento).place(relx=.5, rely=.5, anchor="center", y=30)
 ttk.Label(root, text="v1.0").place(x=264, y=127)
-
-
-
 
 root.mainloop()
