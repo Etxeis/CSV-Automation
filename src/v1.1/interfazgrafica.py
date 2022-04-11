@@ -301,15 +301,22 @@ def Intento():
     except:
         showinfo(message="No se ha seleccionado ningun archivo")
 
-open_button = ttk.Button(
-    root,
-    text='Abrir Archivo ".csv"',
-    command=select_file
-)
+def CreatorInfo():
+    showinfo(message="Programa de uso libre creado por Pablo Etcheberry Salinas\n\nProhibída su venta y/o comercialización\n\nAgradecimientos a: Mónica Salinas Ibaceta y ")
+
+
+open_button = ttk.Button(root, text='Abrir Archivo ".csv"', command=select_file)
 open_button.place(relx=.5, rely=.5, anchor="center", y=-25)
 
 
+# Boton de Generado
 ttk.Button(root, text="GENERAR", command=Intento).place(relx=.5, rely=.5, anchor="center", y=30)
+
+# Boton de Informacion de Autoria
+infoButton = ttk.Button(root, text="i", command=CreatorInfo, width=2)
+infoButton.place(x=0, y=125)
+
+# Version del Programa
 ttk.Label(root, text="v1.0").place(x=264, y=127)
 
 root.mainloop()
