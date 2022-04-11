@@ -275,6 +275,10 @@ def automatizacion():
         showinfo(message="Archivo generado!")
 
 
+def CreatorInfo():
+    showinfo(message="Programa de uso libre creado por Pablo Etcheberry Salinas\n\nProhibída su venta y/o comercialización\n\nAgradecimientos a: Mónica Salinas Ibaceta y ")
+
+
 def Intento():
     try:
         automatizacion()
@@ -288,6 +292,9 @@ open_button = ttk.Button(
 )
 open_button.place(relx=.5, rely=.5, anchor="center", y=-25)
 
+# Boton de Informacion de Autoria
+infoButton = ttk.Button(root, text="i", command=CreatorInfo, width=2)
+infoButton.place(x=0, y=125)
 
 ttk.Button(root, text="GENERAR", command=Intento).place(relx=.5, rely=.5, anchor="center", y=30)
 ttk.Label(root, text="v1.0").place(x=264, y=127)
