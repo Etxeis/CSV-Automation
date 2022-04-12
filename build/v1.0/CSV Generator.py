@@ -276,7 +276,7 @@ def automatizacion():
 
 
 def CreatorInfo():
-    showinfo(message="Programa de uso libre creado por Pablo Etcheberry Salinas\n\nProhibída su venta y/o comercialización\n\nAgradecimientos a: Mónica Salinas Ibaceta y ")
+    showinfo(message="Programa de uso libre creado por Pablo Etcheberry Salinas\n\nProhibída su venta y/o comercialización\n\nAgradecimientos a: Mónica Salinas & Oscar Araya")
 
 
 def Intento():
