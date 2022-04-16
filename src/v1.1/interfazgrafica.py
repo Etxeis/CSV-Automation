@@ -22,7 +22,7 @@ def select_file():
         title='Seleccionar Archivo',
         initialdir='/',
         filetypes=filetypes)
-    
+
     global archName
     archName = str(filename)
     listaSalida = archName.split("/")
@@ -62,7 +62,7 @@ def DoctorListCreator():
     return doctorListCorrect
 
 def automatizacion():
-    file = open(archName, encoding='iso-8859-1') 
+    file = open(archName, encoding='iso-8859-1')
 
     header = []
     rows = []
@@ -117,7 +117,7 @@ def automatizacion():
                 temporaryList[10] = atribute
             elif (atribute == person[19]): # Arreglos de numeros telefonicos (Si tiene mas de 9 o menos de 7 se considera como mal digitado)
                 if (len(person[19]) == 8): # Si tiene 8 numeros
-                    if (2 <= int(person[19][0]) <= 3): 
+                    if (2 <= int(person[19][0]) <= 3):
                         temporaryNumber = '2'+person[19]
                         temporaryList[5] = temporaryNumber
                         flagFirstNumb = True
@@ -144,7 +144,7 @@ def automatizacion():
             elif (atribute == person[20]):
                 if (flagFirstNumb == True):
                     if (len(person[20]) == 8): # Si tiene 8 numeros
-                        if (2 <= int(person[20][0]) <= 3): 
+                        if (2 <= int(person[20][0]) <= 3):
                             temporaryNumber = '2'+person[20]
                             temporaryList[6] = temporaryNumber
                             flagSecondNumb = True
@@ -170,7 +170,7 @@ def automatizacion():
 
                 else:
                     if (len(person[20]) == 8): # Si tiene 8 numeros
-                        if (2 <= int(person[20][0]) <= 3): 
+                        if (2 <= int(person[20][0]) <= 3):
                             temporaryNumber = '2'+person[20]
                             temporaryList[5] = temporaryNumber
                             flagFirstNumb = True
@@ -198,7 +198,7 @@ def automatizacion():
             elif (atribute == person[21]):
                 if (flagFirstNumb == False):
                     if (len(person[21]) == 8): # Si tiene 8 numeros
-                        if (2 <= int(person[21][0]) <= 3): 
+                        if (2 <= int(person[21][0]) <= 3):
                             temporaryNumber = '2'+person[21]
                             temporaryList[5] = temporaryNumber
                             flagFirstNumb = True
@@ -224,7 +224,7 @@ def automatizacion():
 
                 elif (flagFirstNumb == True and flagSecondNumb == False):
                     if (len(person[21]) == 8): # Si tiene 8 numeros
-                        if (2 <= int(person[21][0]) <= 3): 
+                        if (2 <= int(person[21][0]) <= 3):
                             temporaryNumber = '2'+person[21]
                             temporaryList[6] = temporaryNumber
                             flagSecondNumb = True
@@ -267,7 +267,6 @@ def automatizacion():
                 temporaryList[12] = person[9].lower()
             else:
                 temporaryList[12] = '.'
-                
 
             temporaryList[9] = '.'
             temporaryList[3] = '.'
@@ -302,7 +301,7 @@ def Intento():
         showinfo(message="No se ha seleccionado ningun archivo")
 
 def CreatorInfo():
-    showinfo(message="Programa de uso libre creado por Pablo Etcheberry Salinas\n\nProhibída su venta y/o comercialización\n\nAgradecimientos a: Mónica Salinas Ibaceta y ")
+    showinfo(message="Programa de uso libre creado por Pablo Etcheberry Salinas\n\nProhibída su venta y/o comercialización\n\nAgradecimientos a: Mónica Salinas Ibaceta y Oscar Araya")
 
 
 open_button = ttk.Button(root, text='Abrir Archivo ".csv"', command=select_file)
