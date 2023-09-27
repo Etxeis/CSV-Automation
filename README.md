@@ -1,3 +1,3 @@
 # CSV-Automatization
 
-Automatization proyect for CSV files
+Automatization project for CSV files
